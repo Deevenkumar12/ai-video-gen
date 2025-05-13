@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Image to Video Generator (4K)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AI Image to Video Generator</h1>
+  <form id="uploadForm">
+    <input type="file" id="imageInput" accept="image/*" required><br>
+    <textarea id="promptInput" placeholder="Enter your prompt..." required></textarea><br>
+    <button type="submit">Generate Video</button>
+  </form>
+  <div id="loading" style="display:none;">Processing your video...</div>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
